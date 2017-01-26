@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.js"></script>
+    <script>
+        window.onload = function () {
+            new Vue({
+                el:'#box',
+                data:{
+                    msg:'Hello World',
+                    msg2:12,
+                    msg3:true,
+                    arr:['apple','banana','orange','pear'],
+                    json:{a:'apple',b:'banana',c:'orange',d:'pear'}
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+<div id="box">
+    <input type="text" v-model="msg">
+    <br>
+    {{msg}}
+    <br>
+    {{msg2}}
+    <br>
+    {{msg3}}
+    <br>
+    {{arr}}
+    <br>
+    {{json}}
+    <br>
+    <ul>
+        <li v-for="(value,index) in arr">
+            {{ value }} {{ index }}
+        </li>
+    </ul>
+    <hr>
+    <ul>
+        <li v-for="(item,key,index) in json">
+            {{ item }} {{key}} {{ index }}
+        </li>
+    </ul>
+</div>
+</body>
+</html>
