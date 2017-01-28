@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.js"></script>
+    <script>
+        window.onload = function () {
+            new Vue({
+                el:'#box',
+                data:{
+                    url:'images/baidu.jpg',
+                    w:'200px',
+                    t:'这是一张图片'
+                },
+                methods:{
+
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+<div id="box">
+    <img v-bind:src="url" :width="w" :title="t">
+</div>
+</body>
+</html>
