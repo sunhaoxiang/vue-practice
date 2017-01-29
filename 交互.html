@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.js"></script>
+    <script src="js/vue-resource.js"></script>
+    <script>
+        window.onload = function () {
+            new Vue({
+                el:'#box',
+                data:{},
+                methods:{
+                    get:function () {
+                        this.$http.get('data.txt').then(function (res) {
+                            alert(res.data);
+                        },function (res) {
+                            alert(res.status);
+                        });
+                    }
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+<div id="box">
+    <input type="button" value="按钮" @click="get()">
+</div>
+</body>
+</html>

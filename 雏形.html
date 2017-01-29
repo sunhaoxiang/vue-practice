@@ -34,14 +34,14 @@
     {{json}}
     <br>
     <ul>
-        <li v-for="(item,index) in arr">
-            {{ item }} {{ index }}
+        <li v-for="(value,index) in arr">
+            {{ value }} {{ index }}
         </li>
     </ul>
     <hr>
     <ul>
-        <li v-for="(item,key,index) in json">
-            {{ item }} {{key}} {{ index }}
+        <li v-for="(value,key,index) in json">
+            {{ value }} {{key}} {{ index }}
         </li>
     </ul>
 </div>
