@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.js"></script>
+    <script>
+        window.onload = function () {
+            var vm=new Vue({
+                el:'#box',
+                data:{
+                    a:Date.now()
+                },
+                filters:{
+                    date:function (input) {
+                        var oDate=new Date(input);
+                        return oDate.getFullYear()+'-'+(oDate.getMonth()+1)+'-'+oDate.getDate()+' '+oDate.getHours()+':'+oDate.getMinutes()+':'+oDate.getSeconds();
+                    }
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+<div id="box">
+    {{a|date}}
+</div>
+</body>
+</html>
