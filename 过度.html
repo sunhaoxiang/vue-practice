@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #div1{ width: 100px; height: 100px; background: red;}
+        .fade-enter-active, .fade-leave-active {
+            transition: opacity 2s
+        }
+        .fade-enter, .fade-leave-active {
+            opacity: 0
+        }
+    </style>
+    <script src="js/vue.js"></script>
+    <script>
+        window.onload = function () {
+            var vm=new Vue({
+                el:'#box',
+                data:{
+                    bSign:true
+                },
+                methods:{
+                    toggle:function () {
+                        this.bSign=!this.bSign;
+                    }
+                }
+            });
+
+        }
+    </script>
+</head>
+<body>
+<div id="box">
+    <input type="button" value="按钮" @click="toggle">
+    <transition name="fade">
+        <div id="div1" v-show="bSign"></div>
+    </transition>
+</div>
+</body>
+</html>
