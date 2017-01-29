@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.js"></script>
+    <script>
+        window.onload = function () {
+            var vm=new Vue({
+                el:'#box',
+                data:{
+                    msg:'well'
+                },
+                beforeCreate:function () {
+                    alert('beforeCreate');
+                },
+                created:function () {
+                    alert('created');
+                },
+                beforeMount:function () {
+                    alert('beforeMount');
+                },
+                mounted:function () {
+                    alert('mounted');
+                },
+                beforeDestroy:function () {
+                    alert('beforeDestroy');
+                },
+                destroyed:function () {
+                    alert('destroyed');
+                }
+            });
+            document.onclick = function () {
+                vm.$destroy();
+            };
+        }
+    </script>
+</head>
+<body>
+<div id="box">{{msg}}</div>
+</body>
+</html>
