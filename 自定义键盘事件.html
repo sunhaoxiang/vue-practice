@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.js"></script>
+    <script>
+        Vue.config.keyCodes.a=65;
+        window.onload=function(){
+            new Vue({
+                el:'#box',
+                data:{
+
+                },
+                methods:{
+                    change:function () {
+                        alert('a被按下了！')
+                    }
+                }
+            });
+        };
+    </script>
+</head>
+<body>
+<div id="box">
+    <input type="text" @keyup.a="change">
+</div>
+</body>
+</html>
