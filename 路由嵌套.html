@@ -14,11 +14,28 @@
     <script>
         window.onload = function () {
             var Home = { template: '<h3>我是主页</h3>' };
-            var News = { template: '<h3>我是新闻</h3>' };
+            var User = {
+                template:`
+                    <div>
+                        <h3>我是用户信息</h3>
+                        <ul>
+                            <li><router-link to="/user/username">某用户</router-link></li>
+                        </ul>
+                        <router-view></router-view>
+                    </div>
+                `
+            };
+            var UserDetail={ template: '<div>我是某用户</div>'};
 
             const routes = [
                 { path: '/home', component: Home },
-                { path: '/news', component: News },
+                {
+                    path: '/user',
+                    component: User,
+                    children: [
+                        { path: 'username', component: UserDetail}
+                    ]
+                },
                 { path: '*', redirect: '/home' }
             ];
 
@@ -37,7 +54,7 @@
 <div id="box">
     <p>
         <router-link to="/home">主页</router-link>
-        <router-link to="/news">新闻</router-link>
+        <router-link to="/user">用户</router-link>
     </p>
     <router-view></router-view>
 </div>

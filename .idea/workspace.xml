@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c327f19-1730-45e5-9429-99ae318414ca" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/路由嵌套.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/过度.html" afterPath="$PROJECT_DIR$/过度.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/路由.html" afterPath="$PROJECT_DIR$/路由.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,12 +27,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="过度.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/过度.html">
+      <file leaf-file-name="路由嵌套.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/路由嵌套.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="37" />
-              <folding />
+              <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+              <folding>
+                <marker date="1485879645720" expanded="true" signature="473:739" ph="..." />
+                <marker date="1485879645720" expanded="true" signature="542:660" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="路由.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/路由.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="7" />
+              <folding>
+                <marker date="1485878370219" expanded="true" signature="31:1047" ph="..." />
+                <marker date="1485878370219" expanded="true" signature="38:855" ph="..." />
+                <marker date="1485878370219" expanded="true" signature="102:207" ph="..." />
+                <marker date="1485878370219" expanded="true" signature="303:847" ph="..." />
+                <marker date="1485878370219" expanded="true" signature="862:1039" ph="..." />
+                <marker date="1485878370219" expanded="true" signature="877:1031" ph="..." />
+                <marker date="1485878370219" expanded="true" signature="885:992" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,7 +109,6 @@
         <option value="$PROJECT_DIR$/自定义过滤器.html" />
         <option value="$PROJECT_DIR$/拖拽.html" />
         <option value="$PROJECT_DIR$/js/vue-router.js" />
-        <option value="$PROJECT_DIR$/路由.html" />
         <option value="$PROJECT_DIR$/组件定义方式.html" />
         <option value="$PROJECT_DIR$/组件定义方式2.html" />
         <option value="$PROJECT_DIR$/组件.html" />
@@ -95,20 +118,28 @@
         <option value="$PROJECT_DIR$/vue2.0-transition3.html" />
         <option value="$PROJECT_DIR$/过度.html" />
         <option value="$PROJECT_DIR$/vue2.0-transition多个元素2.html" />
+        <option value="$PROJECT_DIR$/路由.html" />
+        <option value="$PROJECT_DIR$/路由嵌套.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="725" />
-    <option name="y" value="128" />
+    <option name="x" value="808" />
+    <option name="y" value="83" />
     <option name="width" value="1128" />
-    <option name="height" value="817" />
+    <option name="height" value="818" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -161,7 +192,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="H:/test" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -169,6 +200,8 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -257,12 +290,12 @@
       <workItem from="1485789924334" duration="752000" />
       <workItem from="1485847502844" duration="273000" />
       <workItem from="1485871990966" duration="3311000" />
-      <workItem from="1485875314317" duration="1299000" />
+      <workItem from="1485875314317" duration="4147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65993000" />
+    <option name="totallyTimeSpent" value="68841000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -274,7 +307,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="725" y="128" width="1128" height="817" extended-state="1" />
+    <frame x="808" y="83" width="1128" height="818" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25137615" sideWeight="0.49541286" order="0" side_tool="false" content_ui="combo" />
@@ -324,7 +357,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vue基础事件.html" />
     <entry file="file://$PROJECT_DIR$/vue雏形.html" />
     <entry file="file://$PROJECT_DIR$/vue点击按钮div消失.html" />
     <entry file="file://$PROJECT_DIR$/vue基础事件.html" />
@@ -493,13 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/路由.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/生存周期.html" />
     <entry file="file://$PROJECT_DIR$/js/vue2.js" />
     <entry file="file://$PROJECT_DIR$/键盘事件.html">
@@ -544,14 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/父组件和子组件.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="984">
-          <caret line="41" column="29" lean-forward="false" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/vue.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -583,6 +600,41 @@
         <state relative-caret-position="360">
           <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/父组件和子组件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="984">
+          <caret line="41" column="29" lean-forward="false" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/路由.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="7" />
+          <folding>
+            <marker date="1485878370219" expanded="true" signature="31:1047" ph="..." />
+            <marker date="1485878370219" expanded="true" signature="38:855" ph="..." />
+            <marker date="1485878370219" expanded="true" signature="102:207" ph="..." />
+            <marker date="1485878370219" expanded="true" signature="303:847" ph="..." />
+            <marker date="1485878370219" expanded="true" signature="862:1039" ph="..." />
+            <marker date="1485878370219" expanded="true" signature="877:1031" ph="..." />
+            <marker date="1485878370219" expanded="true" signature="885:992" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/路由嵌套.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+          <folding>
+            <marker date="1485879645720" expanded="true" signature="473:739" ph="..." />
+            <marker date="1485879645720" expanded="true" signature="542:660" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
